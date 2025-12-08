@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(to bottom, #141414 0%, #171c26 100%);;
+    margin: 0;
+    font-family: sans-serif;
+    color: antiquewhite;
+    
+}
+
+a {
+    color: #00BCD4; 
+    text-decoration: none;
+    /* Añadimos una transición para que el hover no sea brusco */
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    /* Aumentamos ligeramente la intensidad para notar el cambio */
+    color: #66FFFF; 
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0; /* Quita el padding por defecto del ul */
+    margin: 20px 0 0 0; /* Añade espacio arriba */
+
+    /* PROPIEDADES CLAVE: Esto hace la fila y la centra */
+    display: flex; 
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+main{
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+section{
+    padding: 20px;
+}
+.proyectos-grid{
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* Estilo para las tarjetas individuales */
+#proyectos article {
+    background-color: #2A2A2A; 
+    padding: 20px;
+    width: 300px; 
+    border-radius: 5px;
+    border: 2px solid #00BCD4; 
+    text-align: left; 
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
