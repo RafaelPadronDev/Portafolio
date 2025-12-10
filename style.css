@@ -20,12 +20,12 @@ a:hover {
 
 header{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 nav ul {
     list-style: none;
     padding: 0; /* Quita el padding por defecto del ul */
-    margin: 20px 0 0 0; /* Añade espacio arriba */
+    margin: 8px 0 0 0; /* Añade espacio arriba */
 
     /* PROPIEDADES CLAVE: Esto hace la fila y la centra */
     display: flex; 
@@ -41,7 +41,7 @@ nav ul li a{
 }
 
 main{
-    padding: 20px;
+    padding: 15px;
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
@@ -62,6 +62,7 @@ section{
     border-radius: 5px;
     border: 2px solid #00BCD4; 
     text-align: left; 
+    box-shadow: 5px 5px 10px #2E13644D;
 }
 
 footer{
